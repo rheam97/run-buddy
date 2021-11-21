@@ -57,18 +57,19 @@ footer a {
     color: #024e76
 }
 /*Hero Style Start*/
+/* homeopage hero */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
+  
 }
 /*Hero Style End*/
 /* Hero form Style Start*/
 .hero-form {
     background-color:#fce138 ;
-    border: ;
     color: #024e76;
     width: 500px;
     padding: 20px;
