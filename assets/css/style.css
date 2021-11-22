@@ -126,9 +126,7 @@ footer a {
 }
 /*Hero Form Style End*/
 /* apply these changes to what we do*/
-.intro {
-    text-align: center;
-}
+
 /* remove this for DRY purposes */
 .intro h2 {
     
@@ -140,16 +138,18 @@ footer a {
     font-size: 20px;
     /*add this alongside your other declarations*/
     margin: 0 auto;
+    text-align: center;
 }
 /*end what we do*/
 /*apply these changes to what you do*/
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    margin: 0 auto 35px auto;
+    padding-bottom: 20px;
+    text-align:center;
+    width: 50%;
   }
   
   .primary-border {
@@ -179,7 +179,6 @@ footer a {
     font-size: 23px;
   }
 .steps {
-    text-align: center;
     background:#fce138;
 }
 .steps span {
@@ -193,7 +192,6 @@ footer a {
 /* end what you do*/  
 /* meet the trainers changes*/
 .trainers {
-    text-align: center;
 }
 .trainer {
     width: 900px;
@@ -234,13 +232,15 @@ footer a {
 .text-right {
     text-align: right;
 }
+.flex-row{
+    display: flex;
+}
 /* meet the trainer changes end*/
 /* reach out changes start*/
 .contact-info {
 
 }
 .contact {
-    text-align: center;
     background-color: #024e76;
 }
 
