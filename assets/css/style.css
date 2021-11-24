@@ -129,7 +129,6 @@ footer a {
 .hero-form h3 {
     margin:0px;
     font-size: 24px;
-    display:block;
 }
 .hero-form p {
     margin: 5px 0 15px 0;
@@ -207,6 +206,7 @@ footer a {
 .hero-form button {
     background-color:var(--secondary-color);
     color:var(--primary-color);
+    border:none;
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 15px;
@@ -258,9 +258,8 @@ footer a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid var(--tertiary-color);
   }
-  .step :not(:last-child) {
+  .step:last-child {
     border-bottom: 1px solid var(--tertiary-color) ;
   }
   .step-info {
